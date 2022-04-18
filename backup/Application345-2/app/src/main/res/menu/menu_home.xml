@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tab_thu"
+        android:icon="@drawable/ic_income"
+        android:title="Dữ liệu thu"
+        android:iconTintMode="@color/white"></item>
+
+    <item android:id="@+id/tab_chi"
+        android:icon="@drawable/spending"
+        android:title="Dữ liệu chi"
+        android:iconTintMode="@color/white"></item>
+
+</menu>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/custom_linear_layout_gioithieu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/custom_layouttt"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/textViewThu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:text="Kế hoạch"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Tháng:"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_weight="7"
+            android:id="@+id/edtThang"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:hint="Chọn Tháng"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Năm:"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_weight="7"
+            android:id="@+id/edtNam"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:hint="Chọn Năm"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Khoản thu:"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/edtThu"
+            android:layout_width="wrap_content"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:hint="Nhập khoản thu dự kiến"
+            android:inputType="numberDecimal"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Khoản chi:"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_weight="7"
+            android:id="@+id/edtChi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:hint="Nhập khoản chi dự kiến"
+            android:inputType="numberDecimal"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:background="@drawable/custom_button"
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginRight="20dp"
+            android:text="Cập nhật"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:background="@drawable/custom_button"
+            android:id="@+id/btnCancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:backgroundTint="#B8A2A2"
+            android:text="Đóng"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

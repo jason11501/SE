@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory
+    android:title="Cài đặt tài khoản">
+    <Preference
+        android:title="Thay đổi mật khẩu"
+        android:key="ChangePwd"
+        ></Preference>
+    <Preference
+        android:title="Thay đổi tên đăng nhập"
+        android:key="ChangeUsr"
+        ></Preference>
+
+</PreferenceCategory>
+    <PreferenceCategory
+        android:title="Cài đặt dữ liệu">
+        <Preference
+
+            android:title="Reset toàn bộ dữ liệu"
+            android:key="reset"
+            ></Preference>
+
+    </PreferenceCategory>
+<PreferenceCategory
+    android:title="Cài đặt nâng cao">
+    <CheckBoxPreference
+        android:title="Thông báo định kì hằng ngày"
+        android:defaultValue="false"></CheckBoxPreference>
+</PreferenceCategory>
+
+</PreferenceScreen>

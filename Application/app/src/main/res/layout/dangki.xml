@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="ĐĂNG KÍ"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/edtdkuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:hint="Tên đăng nhập"/>
+
+    <EditText
+        android:id="@+id/edtdkpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Mật khẩu"></EditText>
+    <LinearLayout android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent">
+
+
+        <Button
+            android:id="@+id/btndkhuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"/>
+
+        <Button
+            android:id="@+id/btndkxacnhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Xác nhận"/>
+        ></LinearLayout>
+
+    ></LinearLayout>

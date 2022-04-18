@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:text="Thay đổi mật khẩu"
+    android:gravity="center"
+    android:textSize="27sp"
+    android:textStyle="bold"
+    android:textColor="#F66666"/>
+    <EditText
+        android:id="@+id/edtOldPwd"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu cũ"
+        android:textColorHint="#B1ABAB"
+        android:textColor="#F66666"
+        android:inputType="textPassword"></EditText>
+    <EditText
+        android:id="@+id/edtNewPwd"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu mới"
+        android:textColorHint="#B1ABAB"
+        android:textColor="#F66666"
+        android:inputType="textPassword"></EditText>
+    <EditText
+        android:id="@+id/edtNewPwd1"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu mới lại một lần nữa"
+        android:textColorHint="#B1ABAB"
+        android:textColor="#F66666"
+        android:inputType="textPassword"></EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_marginRight="50dp"
+            android:background="@drawable/custom_button"
+            android:id="@+id/btnXacnhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="Xác nhận"/>
+        <Button
+            android:background="@drawable/custom_button"
+            android:id="@+id/btnhuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="Hủy"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="dinhphuc.com.example.expensemanagement.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="dinhphuc.com.example.expensemanagement.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="dinhphuc.com.example.expensemanagement.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_chi"
+        android:name="dinhphuc.com.example.expensemanagement.ui.chi.chiFragment"
+        android:label="Nhập dữ liệu chi tiêu"
+        tools:layout="@layout/fragment_chi" />
+    <fragment
+        android:id="@+id/nav_thu"
+        android:name="dinhphuc.com.example.expensemanagement.ui.thu.thuFragment"
+        android:label="Nhập dữ liệu thu nhập"
+        tools:layout="@layout/fragment_thu" />
+    <fragment
+        android:id="@+id/nav_thongke"
+        android:name="dinhphuc.com.example.expensemanagement.ui.thongke.ThongkeFragment"
+        android:label="Thống kê"
+        tools:layout="@layout/fragment_thongke" />
+    <fragment
+        android:id="@+id/nav_gioithieu"
+        android:name="dinhphuc.com.example.expensemanagement.ui.gioithieu.GioithieuFragment"
+        android:label="Giới thiệu"
+        tools:layout="@layout/fragment_gioithieu2" />
+    <fragment android:id="@+id/nav_thoat" />
+    <fragment
+        android:id="@+id/nav_kehoach"
+        android:name="dinhphuc.com.example.expensemanagement.ui.kehoach.KehoachFragment"
+        android:label="Kế hoạch chi tiêu"
+        tools:layout="@layout/fragment_kehoach" />
+</navigation>

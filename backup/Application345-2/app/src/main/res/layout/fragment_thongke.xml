@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".ui.thongke.ThongkeFragment"
+    android:background="#E8E8E8"
+    android:weightSum="40"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:background="@drawable/custom_linear_layout_gioithieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:weightSum="10"
+        android:gravity="end"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+            <EditText
+                android:layout_weight="4"
+                android:id="@+id/edtThang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nhập tháng"
+                android:gravity="center"
+                android:inputType="number"/>
+            <TextView
+                android:textSize="20sp"
+                android:text="/"
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+            <EditText
+                android:layout_weight="4"
+                android:id="@+id/edtNam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nhập năm"
+                android:gravity="center"
+                android:inputType="number"/>
+
+
+
+            <Button
+                android:layout_weight="1.5"
+                android:id="@+id/btnXacnhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:text="Xác nhận"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/custom_linear_layout_gioithieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="19"
+        android:layout_margin="5dp">
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart_thu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/custom_linear_layout_gioithieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="19"
+        android:layout_margin="5dp">>
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart_chi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/piechart_thu" />
+    </LinearLayout>
+
+
+</LinearLayout>

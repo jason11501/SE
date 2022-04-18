@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+<!--        <item-->
+<!--            android:id="@+id/nav_chi"-->
+<!--            android:icon="@drawable/ic_spend"-->
+<!--            android:title="Khoản Chi" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_thu"-->
+<!--            android:icon="@drawable/ic_income"-->
+<!--            android:title="Khoản Thu" />-->
+        <item
+            android:id="@+id/nav_stat"
+            android:icon="@drawable/statistics"
+            android:title="Thống kê" />
+        <item
+            android:id="@+id/nav_thongke"
+            android:icon="@drawable/ic_report"
+            android:title="Báo cáo" />
+        <item
+            android:id="@+id/nav_kehoach"
+            android:icon="@drawable/planning"
+            android:title="Kế hoạch chi tiêu" />
+    </group>
+    <item android:title="Giới Thiệu">
+        <menu>
+            <item android:title="Giới Thiệu"
+                android:id="@+id/nav_gioithieu"
+                android:icon="@drawable/ic_view"/>
+            <item android:title="Thoát"
+                android:id="@+id/nav_thoat"
+                android:icon="@drawable/ic_exit"/>
+        </menu>
+    </item>
+
+
+</menu>

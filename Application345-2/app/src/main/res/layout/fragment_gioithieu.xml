@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gioithieu.GioithieuFragment"
+    android:orientation="vertical"
+    android:layout_weight="10"
+    android:background="#EDE2E2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_margin="5dp"
+        android:layout_weight="5"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MỘT SẢN PHẨM ĐƯỢC PHÁT TRIỂN BỞI:"
+            android:textSize="20sp"
+            android:textColor="#F66666"
+            android:textStyle="bold"
+            android:layout_margin="5dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Võ Đình Phúc"
+            android:textColor="#F66666"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Nguyễn Hữu Hiển"
+            android:textSize="20sp"
+            android:textColor="#F66666"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Nguyễn Trần Gia Khang"
+            android:textSize="20sp"
+            android:textColor="#F66666"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Hồ Thiên Phước"
+            android:textSize="20sp"
+            android:textColor="#F66666"
+            android:textStyle="bold"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mọi thắc mắc liên hệ tại:  "
+                android:textStyle="bold"
+                android:textColor="#F66666"
+                android:textSize="16dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/tvEmail"
+                android:text="Dinhphuc20092001@gmail.com"
+                android:textStyle="italic"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:background="@drawable/custom_linear_layout_gioithieu"
+        android:layout_margin="5dp">
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
